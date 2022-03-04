@@ -25,10 +25,10 @@ li {
 
 
 .headerFixedPosition{
-	position: fixed;
 	color: #66ff00;
 	background: black;
-	 right: 10px; /* Расстояние от правого края окна браузера */
-    top: 20%; /* Расстояние сверху */
-    padding: 0px; /* Поля вокруг текста */ 
+	width: 2000px;
+    height: 60px;
+    position: fixed;
+    z-index: 1000;
 }
